@@ -1,0 +1,20 @@
+{
+  "name": "ts-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "build/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node build/index"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/deep-equal": "^1.0.1",
+    "@types/node": "^10.12.12",
+    "typescript": "^3.2.1"
+  },
+  "dependencies": {
+    "deep-equal": "^1.0.1"
+  }
+}
