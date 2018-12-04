@@ -1,7 +1,7 @@
 # Getting started
 - Clone the repository
 ```
-git clone --depth=1 
+git clone --depth=1 https://github.com/Shuvayu/ts-starter.git
 ```
 - Install dependencies
 ```
@@ -37,10 +37,10 @@ The full folder structure of this app is explained below:
 | **node_modules**         | Contains all your npm dependencies                                                            |
 | **src**                  | Contains your source code that will be compiled to the build dir                              |
 | **src/app**              | Contains all application code                                                                 |
-| **src/app/application**  | Contains all application bussiness logic code                                                 |
+| **src/app/application**  | Contains all application business logic code                                                 |
 | **src/app/domain**       | Contains all application domain objects                                                       |
-| **src/app/persistence**  | Contains all application persistence objects like apis, file system dependecies, etc          |       
-| **src**/index.ts         | Entry point to compare app                                                                    |
+| **src/app/persistence**  | Contains all application persistence objects like apis, file system dependencies, etc          |       
+| **src**/index.ts         | Entry point to the app                                                                    |
 | .env.example             | API keys, tokens, passwords, database URI. Clone this, but don't check it in to public repos. |
 | package.json             | File that contains npm dependencies as well as [build scripts](#what-if-a-library-isnt-on-definitelytyped)                      |    
 | tsconfig.json            | Config settings for compiling server code written in TypeScript                               |

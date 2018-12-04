@@ -8,7 +8,7 @@
     "start": "node build/index"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@types/deep-equal": "^1.0.1",
     "@types/node": "^10.12.12",
